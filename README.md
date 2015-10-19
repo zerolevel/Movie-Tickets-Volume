@@ -6,6 +6,8 @@ To run this one requires to install two databases. It expects they run at defaul
 - [Redis]
 - [MongoDB]
 
+While the scrapper is running in one of your machines or a cloud server you can get updates on your email. For this mailgun api is used. Edit config.js for this.
+
 ### Installation
 You need mocha:
 
@@ -14,6 +16,7 @@ $ npm i -g mocha
 ```
 ```
 >> start redis and mongo-server
+>> change config file as required.
 ```
 ```sh
 $ git clone https://github.com/zerolevel/Movie-Tickets-Volume.git mvt
